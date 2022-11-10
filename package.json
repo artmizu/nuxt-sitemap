@@ -21,9 +21,6 @@
     "test": "vitest",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "nr build",
-    "release": "bumpp --commit --push --tag",
-    "start": "nr dev && node cli.mjs",
     "prepare": "husky install"
   },
   "devDependencies": {
