@@ -9,8 +9,8 @@ import { getStaticRoutes } from './static-routes'
 import type { SitemapModuleParams, SitemapRoute, VueRouterRoute } from './type'
 
 const SitemapModule: Module = function (moduleOptions: Partial<SitemapModuleParams>) {
-  // if (this.options.dev && process.env.NODE_ENV !== 'production')
-  //   return consola.info('[sitemap] Generation disabled')
+  if (this.options.dev && process.env.NODE_ENV !== 'production')
+    return consola.info('[sitemap] Generation disabled')
 
   const option: SitemapModuleParams = merge(
     {
