@@ -26,6 +26,9 @@
     "typecheck": "tsc --noEmit",
     "prepare": "husky install"
   },
+  "peerDependencies": {
+    "@nuxt/types": "^2.15.8"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.29.4",
     "@nuxt/types": "^2.15.8",
