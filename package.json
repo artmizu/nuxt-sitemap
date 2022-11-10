@@ -2,6 +2,9 @@
   "name": "@artmizu/nuxt-sitemap",
   "type": "module",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
