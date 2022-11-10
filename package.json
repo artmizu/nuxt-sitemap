@@ -1,5 +1,6 @@
 {
   "name": "@artmizu/nuxt-sitemap",
+  "packageManager": "pnpm@7.14.2",
   "type": "module",
   "version": "0.0.1",
   "publishConfig": {
